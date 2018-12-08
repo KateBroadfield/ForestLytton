@@ -1,0 +1,342 @@
+/*  Kate Broadfield      */
+/*  colour pallette            */
+/*  dark grey green  #01786F   */
+/* honey due #F0FFF0        */
+
+/*  dark slate grey  #2F4F4F  */
+/* pale steel  #aabbcc  */
+/* pale cream  #fefbd8   */
+/*  light grey green #618685  */
+
+/*  dark brown     #332300       */
+/*  tan       #f4e1d2            */
+/*stone  #e6e2d3 */
+
+/*----------------------------------*/
+/*reset defaults*/
+    * {
+        padding: 0;
+        margin: 0;
+        }
+
+/*screen readers or keyboards, skip navigation direct to content */
+      a#skipNav {
+      position: absolute;
+      top: -100px;
+      left:-100px;
+      color: white;
+      background-color:white;
+
+      }
+
+/* global styles all devices */
+      body {
+        border: 4em solid #2F4F4F;
+        padding:1em;
+        font-family: "Open Sans", sans-serif;
+        font-size:1em;
+        }
+
+        i {
+        color:#aabbcc;
+        }
+
+        ul li {
+        list-style-type:none;
+        text-decoration:none;
+        margin-bottom: 3px;
+        }
+
+        ul {
+                max-width:max-content;
+                }
+
+        address {
+        font-size:.8em;
+        }
+
+        p {
+        font-size:.9em;
+        margin-right:0;
+        padding-right:0;
+        }
+
+/*----------- small screens  -------------------------------*/
+@media screen and (max-width:600px) {
+        body {
+            padding: 10px;
+            margin: 0;
+            color:#2F4F4F;
+            background-color:white;
+            font-family:'Raleway'', sans-serif;
+            font-size:1em;
+        }
+
+        nav#siteNav ul {
+   max-width:max-content;
+   }
+
+        nav#siteNav ul li {
+
+        padding:.5em;
+       margin: 1px 3px 0 -40px;
+        text-decoration:none;
+        color:white;
+        background-color: #2F4F4F;
+        list-style-type:none;
+        }
+
+
+
+        h2, h3, h4 {
+        padding-top: 5px;
+        }
+
+        li a {
+        padding:0 1px;
+        margin:1px;
+        }
+
+        aside {
+        margin:2px;
+        }
+
+        figure {
+        text-align:center;
+        height:80px;
+        width:80px;
+        }
+
+       h1 .siteTitle {
+        font-size:1.4em;
+        }
+        h1::first-letter {
+        font-size:150%;
+        line-height:1.4em;
+        }
+
+
+
+/* hover etc */
+ a:link {
+        text-decoration: none;
+            text-align:center;
+            color: #f4e1d2;
+    }
+
+    a:visited {
+        text-decoration: none;
+            text-align:center;
+            color: #aabbcc;
+            background-color: #2F4F4F;
+    }
+
+    a:hover {
+        text-decoration: underline;
+            text-align:center;
+    }
+
+    a:active {
+        text-decoration: underline;
+            text-align:center;
+    }
+/* end hover etc */
+
+        nav#footerNav ul li {
+
+        padding:1em;
+        margin:.1em 0;
+
+        color:#aabbcc;
+        background-color: #2F4F4F;
+        }
+
+        nav#footer ul li a {
+        text-decoration:none;
+         list-style-type:none;
+         }
+
+
+}
+
+/*------------ipad other medium devices------------------------------*/
+
+@media screen and (min-width:601px) {
+        body {
+            padding: 30px  15px;
+            margin: 0;
+            color:#01786F;
+            background-color:white;
+            font-family:'Montserrat'', "Open Sans", sans-serif;
+            font-size:1em;
+            }
+
+
+
+        nav#siteNav ul li {
+
+        width:20%;
+        padding:1px;
+        margin: 1px;
+        text-decoration:none;
+        color:#01786F;
+        background-color: #2F4F4F;
+        list-style-type:none;
+        top:1px;
+        right:1px;
+        }
+
+        .contact {
+        font-size: .8em;}
+
+/* hover etc */
+ a:link {
+        text-decoration: none;
+            text-align:center;
+    }
+
+    a:visited {
+        text-decoration: none;
+            text-align:center;
+            color: #aabbcc;
+            font-weight:bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+            text-align:center;
+    }
+
+    a:active {
+        text-decoration: underline;
+            text-align:center;
+    }
+/* end hover etc */
+
+        nav#footer ul li {
+        padding:1px;
+        margin:.5em;
+        text-decoration:none;
+         list-style-type:none;
+        color:white;
+        background-color: #2F4F4F;
+        }
+ }
+
+/*--------------biggest---------------------------------*/
+
+@media screen and (min-width:800px) {
+        body {
+            padding: 20px 20px;
+            margin: 0;
+            color:#2F4F4F;
+            background-color:white;
+            font-family:"Montserrat", sans-serif;
+            font-size:1.2em;
+            }
+
+header {
+padding:10px;
+}
+main {
+padding:10px;
+}
+
+
+nav#siteNav {
+padding:0;
+margin:0;
+}
+        nav#siteNav ul li {
+            text-align:center;
+            padding:2px;
+            margin: 0;
+            text-decoration:none;
+            color:white;
+            background-color: #2F4F4F;
+            list-style-type:none;
+            font-size:.9em;
+        }
+
+/* hover etc */
+ a:link {
+        text-decoration: none;
+            text-align:center;
+    }
+
+    a:visited {
+        text-decoration: none;
+            text-align:center;
+            color: #aabbcc;
+            background-color: #2F4F4F;
+    }
+
+    a:hover {
+        text-decoration: underline;
+            text-align:center;
+           border-bottom:1px solid #F0FFF0;
+            border-right:1px solid #F0FFF0;
+         /*   border-style:outset;  */
+    }
+
+    a:active {
+        text-decoration: underline;
+            text-align:center;
+           /* border-style:inset; */
+            }
+/* end hover etc */
+
+
+
+ul li {
+     display:inline;
+
+        padding:1px;
+        margin:0;
+        }
+
+ li a {
+        text-decoration:none;
+         list-style-type:none;
+         float:none;
+         width:100%;
+}
+
+main li {
+display:inline;
+}
+
+        .contact {
+        font-size: .8em;}
+
+#footer ul li a{
+display:inline;
+font-size: .9em;
+}
+
+h3 {
+margin-top:1.2em;
+}
+
+aside {
+margin-top:1.2em;
+padding: 0 1em;
+}
+
+p.reco {
+ font-style: italic;
+ }
+
+.author {
+font-size:.9em;
+font-family: "Times New Roman", serif;
+}
+
+
+
+}
+
+
+
+
+
